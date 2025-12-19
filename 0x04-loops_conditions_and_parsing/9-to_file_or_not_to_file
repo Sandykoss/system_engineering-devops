@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script checks if a file exists and is a regular file
+
+if [ -f "$1" ]; then
+  echo "File exist and is a regular file"
+else
+  echo "$1 doesn’t exist"
+fi
